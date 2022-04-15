@@ -19,9 +19,7 @@ public class p03_Inventory {
                     }
                     break;
                 case "Drop":
-                    if(items.contains(data[1])){
-                        items.remove(data[1]);
-                    }
+                    items.remove(data[1]);
                     break;
                 case "Combine Items":
                     String[] combineItems = data[1].split(":");
@@ -31,7 +29,7 @@ public class p03_Inventory {
                     break;
                 case "Renew":
                     if(items.contains(data[1])){
-                        items.remove(items.indexOf(data[1]));
+                        items.remove(data[1]);
                         items.add(data[1]);
                     }
                     break;
