@@ -6,7 +6,7 @@ public class maxSequenceOfEqualElements {
         Scanner scan = new Scanner(System.in);
         String[] numbers = scan.nextLine().split(" ");
         String Longest = "";
-        String Current = "";
+        String Current;
         for (int i = 0; i < numbers.length; i++) {
             Current = numbers[i];
             for (int j = i + 1; j < numbers.length; j++) {

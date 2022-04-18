@@ -10,7 +10,6 @@ public class magicSum {
                 .mapToInt(Integer::parseInt)
                 .toArray();
         int number = Integer.parseInt(scan.nextLine());
-        int sum = 0;
         for (int i = 0; i < numbers.length; i++) {
             for (int j = i + 1; j < numbers.length; j++) {
                 if(numbers[i] + numbers[j] == number){
