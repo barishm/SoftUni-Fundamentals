@@ -31,7 +31,6 @@ public class BalancedBrackets {
                 }
 
             }
-
         }
         if (bracketClosed && isBalanced) {
             System.out.println("BALANCED");
